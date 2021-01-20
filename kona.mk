@@ -99,7 +99,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona
+    lineage.biometrics.fingerprint.inscreen@1.0-service.kona
 
 # Fstab
 PRODUCT_COPY_FILES += \
@@ -134,6 +134,7 @@ PRODUCT_COPY_FILES += \
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/umi \
+    hardware/xiaomi \
     vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
     vendor/qcom/opensource/commonsys/system/bt/conf
 
