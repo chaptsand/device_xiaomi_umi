@@ -29,7 +29,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 PRODUCT_NAME := aosp_umi
 PRODUCT_DEVICE := umi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 10
+PRODUCT_MODEL := Mi 10
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
