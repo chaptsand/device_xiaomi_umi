@@ -78,10 +78,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     BluetoothQti
     
-# Camera
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
-    
 # Cryptfs
 PRODUCT_PACKAGES += \
     libcryptfs_hw
