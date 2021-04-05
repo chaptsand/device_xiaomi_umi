@@ -80,6 +80,10 @@ etc/permissions/com.qualcomm.qti.UxPerformance.xml|d92749d80c5d956db8251b08ea638
 -framework/QPerformance.jar|fa9463eec3a5a10641757de11478082365b4e018
 -framework/UxPerformance.jar|8a5351cc4d07fcfccab052b1b5de4a790ed4326c
 
+# Radio - from LA.QSSI.11.0.r1-08800-qssi.0.
+-system_ext/framework/qti-telephony-common.jar|710406e01836b558c802ba4960fa59f31545389e
+-system_ext/priv-app/ims/ims.apk|cccc15a4fbaff0f412e09e63744fc95c3c339da8
+
 # Soter - from Xiaomi/umi/umi:11/RKQ1.200826.002/21.3.10:user/release-keys
 -app/SoterService/SoterService.apk|9d41ded29f97671f28874f1f4c5921844bc46a3a
 
@@ -151,7 +155,6 @@ system_ext/etc/spn-conf.xml|ac8a0750445f66091e7e77928fc055ff50369f42
 -system_ext/framework/dpmapi.jar|2e2fbe2257a697b96a644c774136da0554430d3f
 -system_ext/framework/embmslibrary.jar|b5fe26c1cea597af8a1751332d187f2f574816c1
 -system_ext/framework/qcrilhook.jar|f2888f922b8347417dfa86741feb8348795fce6f
--system_ext/framework/qti-telephony-common.jar|1fd37129f961e58f9d1189736e2cb46290666b97
 -system_ext/framework/remotesimlockmanagerlibrary.jar|964306688a3062d0ec507e471d2f4a1a1911e765
 -system_ext/framework/uimgbalibrary.jar|60a64011ce419cd980aaa58bfe131b79ff616b69
 -system_ext/framework/uimgbamanagerlibrary.jar|881baefa00e98f7d25ed33b7ec69e1f0eb821039
@@ -284,7 +287,6 @@ system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|393c5affc1e8e36470705ec44396d1f
 system_ext/lib64/vendor.qti.latency@2.0.so|d388f7b44e439f19562065aa2935fae7318a22fb
 -system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk|55d502583fc6c4c7b4c99b32154f6ff3a2b21bdd
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
--system_ext/priv-app/ims/ims.apk|9bd9423a998eae93b2c94a4820459d7b33c8a51a
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|344ad9179560cc83b208f62fb009fdc2799609fd
 -framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
 
