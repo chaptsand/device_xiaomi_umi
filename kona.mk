@@ -205,6 +205,7 @@ PRODUCT_PACKAGES += \
     librmnetctl
 
 PRODUCT_BOOT_JARS += \
+    android.hidl.manager-V1.0-java \
     telephony-ext
 
 # Wifi
