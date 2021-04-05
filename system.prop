@@ -10,6 +10,7 @@ dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 
 # Bluetooth
+persist.vendor.bt.a2dp.aac_whitelist=false
 persist.vendor.btstack.aac_frm_ctl.enabled=true
 ro.bluetooth.library_name=libbluetooth_qti.so
 
