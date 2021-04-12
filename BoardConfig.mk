@@ -174,5 +174,8 @@ include device/qcom/sepolicy/SEPolicy.mk
 # Screen
 TARGET_SCREEN_DENSITY := 420
 
+# USB
+TARGET_QTI_USB_SUPPORTS_AUDIO_ACCESSORY := true
+
 # VNDK
 BOARD_VNDK_VERSION := current
