@@ -168,6 +168,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.ims.xml
 
 # QTI common
+$(call inherit-product-if-exists, device/qcom/common/common.mk)
+
+TARGET_BOARD_PLATFORM := kona
+
 TARGET_COMMON_QTI_COMPONENTS := \
     perf
 
@@ -200,10 +204,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
-
-# Thermal
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0
 
 # Wifi
 PRODUCT_COPY_FILES += \
