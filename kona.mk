@@ -169,8 +169,7 @@ PRODUCT_COPY_FILES += \
 
 # QTI common
 TARGET_COMMON_QTI_COMPONENTS := \
-    perf \
-    wfd
+    perf
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -209,6 +208,24 @@ PRODUCT_PACKAGES += \
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/wifi/WCNSS_qcom_cfg.ini
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libdisplayconfig.qti \
+    libminijail \
+    libnl \
+    libqdMetaData \
+    libqdMetaData.system
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/seccomp/wfdservice.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice.policy
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wfd.xml
 
 # XiaomiParts
 PRODUCT_PACKAGES += \

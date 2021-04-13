@@ -47,6 +47,9 @@ while [ "$1" != "" ]; do
         ;;
         * )                     SRC=$1
         ;;
+        system_ext/lib64/libwfdnative.so)
+        "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
+        ;;
     esac
     shift
 done
